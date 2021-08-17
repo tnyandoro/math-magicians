@@ -1,5 +1,14 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 .Calculator {
   background-color: darkgreen;
-  display: flex;
-  justify-content: center;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: 25px;
 }

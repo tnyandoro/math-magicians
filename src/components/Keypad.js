@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Button from './Button';
+import styles from '../assets/keypad.module.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Keypad extends Component {
   render() {
     return (
-      <div className="keypad">
+      <div className={`${styles.Keypad}`}>
         <div className="group">
           <Button name="AC" value="clear" />
           <Button name="+/-" value="+/-" />
