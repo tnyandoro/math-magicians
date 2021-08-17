@@ -1,11 +1,12 @@
-import React, { Component } from "react";
-import Display from "./Display";
-import Keypad from "./Keypad";
+/* eslint-disable no-unused-vars */
+import React, { Component } from 'react';
+import Display from './Display';
+import Keypad from './Keypad';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: "math-magicians" };
+    this.state = { name: 'math-magicians' };
   }
 
   render() {
