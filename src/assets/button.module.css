@@ -1,20 +1,30 @@
 .Button {
-  background: #cad2c5;
-  display: flex;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
   width: 25%;
-  font-size: 24px;
+  height: 100%;
+  font-size: 3rem;
+  font-family: inherit;
+  background: #cad2c5;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
   color: rgba(0, 0, 0, 0.5);
-  height: 20%;
+  margin: 0;
   min-width: 25%;
 }
 
-.Button[data-size="2"] {
-  height: 40%;
+.ButtonSpan2 {
+  width: 50%;
 }
+
+.ButtonOrange {
+  background-color: orange;
+}
+
+/* .Button[data-size="2"] {
+  height: 40%;
+} */
 
 .Button[data-value="null"] {
   pointer-events: none;

@@ -1,12 +1,8 @@
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .Calculator {
-  background-color: darkgreen;
+  background-color: rgb(255, 255, 255);
   width: 400px;
   height: 300px;
-  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  align-content: center;
 }
