@@ -27,11 +27,5 @@
 }
 
 .Button:hover {
-  background: #d7ddd3;
-  cursor: default;
-}
-
-.ButtonOrange:hover {
-  background-color: orange;
   opacity: 0.7;
 }
