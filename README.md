@@ -46,7 +46,7 @@ npm start
 ### Build
 
 ```bash
-npm run build
+yarn start
 ```
 
 ### Run tests
