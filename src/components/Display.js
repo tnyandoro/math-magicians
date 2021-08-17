@@ -1,13 +1,10 @@
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Display extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { output: 0 };
-  }
-
   render() {
-    const { output } = this.state;
+    const { output } = this.props;
     return (
       <div className="display">
         <p>{output}</p>
@@ -15,5 +12,9 @@ class Display extends Component {
     );
   }
 }
+
+Display.propTypes = {
+  output: PropTypes.number.isRequired,
+};
 
 export default Display;
