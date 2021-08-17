@@ -1,14 +1,13 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-// eslint-disable-next-line no-unused-vars
-import { render } from '@testing-library/react';
+import styles from '../assets/display.module.css';
 
 class Display extends Component {
   render() {
     const { output } = this.props;
     return (
-      <div className="display">
+      <div className={`${styles.Display}`}>
         <p>{output}</p>
       </div>
     );

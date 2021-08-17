@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import Button from './Button';
+import styles from '../assets/keypad.module.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Keypad extends Component {
   render() {
     return (
-      <div className="keypad">
+      <div className={`${styles.Keypad}`}>
         <div className="group">
           <Button name="AC" value="clear" />
           <Button name="+/-" value="+/-" />
           <Button name="%" value="%" />
-          <Button name="÷" value="/" />
+          <Button name="÷" />
         </div>
         <div className="group">
           <Button name="7" value="7" />
           <Button name="8" value="8" />
           <Button name="9" value="9" />
-          <Button name="X" value="*" />
+          <Button name="x" value="*" />
         </div>
         <div className="group">
           <Button name="4" value="4" />
@@ -31,7 +32,7 @@ class Keypad extends Component {
           <Button name="+" value="+" />
         </div>
         <div className="group">
-          <Button name="0" value="0" />
+          <Button name="0" size="2" value="0" />
           <Button name="." value="." />
           <Button name="=" value="equal" />
         </div>
