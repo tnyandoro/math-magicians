@@ -1,19 +1,16 @@
+/* eslint-disable react/prefer-stateless-function */
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import Display from './Display';
 import Keypad from './Keypad';
+import styles from '../assets/calculator.module.css';
 
 class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { name: 'math-magicians' };
-  }
-
   render() {
-    const { name } = this.state;
     return (
-      <div className="Calculator">
-        <h1>{name}</h1>
+      <div className={`${styles.Calculator}`}>
+        <Display output={0} />
+        <Keypad />
       </div>
     );
   }

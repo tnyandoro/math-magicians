@@ -1,0 +1,5 @@
+.Calculator {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+}
