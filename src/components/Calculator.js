@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Display from "./Display";
+import Keypad from "./Keypad";
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: 'math-magicians' };
+    this.state = { name: "math-magicians" };
   }
 
   render() {
@@ -11,7 +13,6 @@ class Calculator extends Component {
     return (
       <div className="Calculator">
         <h1>{name}</h1>
-
       </div>
     );
   }
