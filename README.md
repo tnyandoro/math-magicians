@@ -2,11 +2,11 @@
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> "Math magicians" is a website for all fans of mathematics.
+> "Math magicians" is a website that calculates mathematics.
 
-![screenshot](./app_screenshot.jpeg)
+![image](https://user-images.githubusercontent.com/30318155/129801928-f4b718d3-9538-4503-9729-f98eaffb88b0.png)
 
-"Math magicians" is a website for all fans of mathematics. It allows users to make simple calculations and read a random math-releted quote.
+"Math magicians" is a website for all  mathematics fanatics. It allows users to make simple calculations.
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://usmansbk.github.io/math-magicians)
+[Live Demo Link](https://tnyandoro.github.io/math-magicians)
 
 ## Getting Started
 
