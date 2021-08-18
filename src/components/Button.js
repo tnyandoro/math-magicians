@@ -11,7 +11,7 @@ class Button extends Component {
     if (name === 'x' || name === '÷' || name === '-' || name === '+' || name === '=') classes += ` ${styles.ButtonOrange}`;
 
     return (
-      <button type="button" className={`${classes}`}>
+      <button onClick={this.calculate} type="button" className={`${classes}`}>
         {name}
       </button>
     );
