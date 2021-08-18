@@ -5,17 +5,27 @@ import styles from '../assets/display.module.css';
 
 class Display extends Component {
   render() {
-    const { output } = this.props;
+    const { output, operation, next } = this.props;
     return (
       <div className={`${styles.Display}`}>
-        <p>{output}</p>
+        <p>{output || '0'}</p>
+        <p>{operation || null}</p>
+        <p>{next}</p>
       </div>
     );
   }
 }
 
 Display.propTypes = {
-  output: PropTypes.number.isRequired,
+  output: PropTypes.number,
+  operation: PropTypes.number,
+  next: PropTypes.number,
+};
+
+Display.defaultProps = {
+  output: '',
+  operation: '',
+  next: '',
 };
 
 export default Display;
