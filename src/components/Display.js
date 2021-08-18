@@ -10,7 +10,7 @@ class Display extends Component {
       <div className={`${styles.Display}`}>
         <p>{output || null}</p>
         <p>{operation || null}</p>
-        <p>{next}</p>
+        <p>{output || operation || next ? next : '0'}</p>
       </div>
     );
   }
