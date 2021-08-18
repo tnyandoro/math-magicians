@@ -67,6 +67,14 @@ export default function calculate(obj, buttonName) {
 
   if (buttonName === '=') {
     if (obj.next && obj.operation) {
+      if (obj.operation === '÷' && `${obj.next}` === '0') {
+        return {
+          total: 'Cannot devide by zero',
+          next: null,
+          operation: null,
+        };
+      }
+
       return {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,

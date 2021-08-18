@@ -8,18 +8,18 @@ class Display extends Component {
     const { output, operation, next } = this.props;
     return (
       <div className={`${styles.Display}`}>
-        <p>{output || '0'}</p>
+        <p>{output}</p>
         <p>{operation || null}</p>
-        <p>{next}</p>
+        <p>{next || '0'}</p>
       </div>
     );
   }
 }
 
 Display.propTypes = {
-  output: PropTypes.number,
-  operation: PropTypes.number,
-  next: PropTypes.number,
+  output: PropTypes.string,
+  operation: PropTypes.string,
+  next: PropTypes.string,
 };
 
 Display.defaultProps = {
