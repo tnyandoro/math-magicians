@@ -11,6 +11,7 @@
 ## Built With
 
 - ReactJS
+- CSS
 
 ## Live Demo
 
