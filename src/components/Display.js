@@ -17,7 +17,7 @@ class Display extends Component {
 }
 
 Display.propTypes = {
-  output: PropTypes.number,
+  output: PropTypes.string,
   operation: PropTypes.string,
   next: PropTypes.string,
 };
