@@ -1,40 +1,26 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { Button } from "./Button";
-import "./Navabar.css";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navabar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL <i className=" fab fa-typo3"></i>
+            TRVL
+            {' '}
+            <i className=" fab fa-typo3" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
@@ -42,24 +28,23 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/calculator"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Calculator
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/qoute"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Qoute
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </div>
@@ -67,4 +52,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

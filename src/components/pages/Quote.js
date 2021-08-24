@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default function Quote() {
+function Qoute() {
   return (
     <div>
       <h1>Qoute</h1>
@@ -12,3 +12,5 @@ export default function Quote() {
     </div>
   );
 }
+
+export default Qoute;
