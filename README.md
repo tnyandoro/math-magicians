@@ -4,7 +4,7 @@
 
 > "Math magicians" is a website that calculates mathematics.
 
-![image](https://user-images.githubusercontent.com/30318155/129801928-f4b718d3-9538-4503-9729-f98eaffb88b0.png)
+![ScreenShot](https://user-images.githubusercontent.com/30318155/130863328-a2fb965a-486d-40f3-9b65-ed0dbd76b44c.png)
 
 "Math magicians" is a website for all  mathematics fanatics. It allows users to make simple calculations.
 
@@ -12,10 +12,12 @@
 
 - ReactJS
 - CSS
+- Gh pages
+- Jest
 
 ## Live Demo
 
-[Live Demo Link](https://tnyandoro.github.io/math-magicians)
+[Live Demo Link](https://tnyandoro.github.io/math-magicians/)
 
 ## Getting Started
 
@@ -77,6 +79,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- React Documentation
 
 ## 📝 License
 
