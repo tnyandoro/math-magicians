@@ -12,6 +12,8 @@
 
 - ReactJS
 - CSS
+- Gh pages
+- Jest
 
 ## Live Demo
 
