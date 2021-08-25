@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://tnyandoro.github.io/math-magicians)
+[Live Demo Link](https://612689e8cdf54200dd65f7a2--compassionate-archimedes-69477f.netlify.app/cal)
 
 ## Getting Started
 
