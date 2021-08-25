@@ -21,24 +21,26 @@
   color: #000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  margin: 2%;
+  padding: 0.5em;
 }
 
 .calcontent {
   width: 50%;
-  padding: 10px;
-  margin: 1px;
+  padding: 5px;
 }
 
 .content {
-  border: 2px solid rgb(108, 108, 108);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(108, 108, 108);
   background-color: #e0e0e0;
   color: #858694;
   margin: 1%;
+  padding: 3%;
 }
 
 .head-content {
-  margin: 5px;
+  margin-top: -10%;
   color: rgb(212, 103, 25);
 }
 
