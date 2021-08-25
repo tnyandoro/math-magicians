@@ -34,7 +34,9 @@
 }
 
 .nav-menu {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: repeat(ifr, ifr, ifr, ifr);
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
