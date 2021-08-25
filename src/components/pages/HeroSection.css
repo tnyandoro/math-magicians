@@ -58,13 +58,4 @@
   .hero-container > p {
     font-size: 30px;
   }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
-  }
 }

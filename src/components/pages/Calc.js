@@ -15,7 +15,7 @@ function Calc() {
           for this standard calculator are listed below.
         </p>
         <p className="content">
-          Numbers are important. Whether costs, revenues, performance, targets –
+          Numbers are important!. Whether costs, revenues, performance, targets –
           most people agree that numbers are important. Interpretation of these
           numbers is key; the numbers can influence decisions related to
           performance, investments and effectiveness among other thing

@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <div className="info">
-        <h1>Welcome to Mathematics</h1>
+        <h1>Welcome to the world of Mathematics</h1>
         <p>
           mathematics, the science of structure, order, and relation that has
           evolved from elemental practices of counting, measuring, and
