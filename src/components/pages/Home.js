@@ -1,10 +1,10 @@
 import React from 'react';
-import Calculator from '../Calculator';
+import HeroSection from './HeroSection';
 
 function Home() {
   return (
     <>
-      <Calculator />
+      <HeroSection />
     </>
   );
 }
