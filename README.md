@@ -13,7 +13,7 @@
 - ReactJS
 - CSS
 - Gh pages
-- Jest
+- Jest-
 
 ## Live Demo
 
