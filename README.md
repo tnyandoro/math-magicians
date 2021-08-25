@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://admiring-villani-17a10e.netlify.app/)
+[Live Demo Link](https://tnyandoro.github.io/math-magicians/)
 
 ## Getting Started
 
