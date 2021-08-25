@@ -4,7 +4,7 @@
 
 > "Math magicians" is a website that calculates mathematics.
 
-![ScreenShot](https://user-images.githubusercontent.com/30318155/130796054-4bc11db0-f100-4783-b65f-90edf4c7560f.png)
+![ScreenShot](https://user-images.githubusercontent.com/30318155/130863328-a2fb965a-486d-40f3-9b65-ed0dbd76b44c.png)
 
 "Math magicians" is a website for all  mathematics fanatics. It allows users to make simple calculations.
 
