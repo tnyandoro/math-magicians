@@ -13,7 +13,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/home" exact component={Home} />
             <Route path="/calc" component={Calc} />
             <Route path="/qoute" component={Qoute} />
           </Switch>
